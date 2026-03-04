@@ -17,14 +17,14 @@ My corpus consists of all studio albums by Prince.
 
 # Cepstrograms
 
-# Column (width = 60%)
+## Column (width = 60%)
 Musicology
 ![](Cepstrogram_musicology.png)
 
 My name is Prince
 ![](Cepstrogram_My_name_is_Prince.png)
 
-# Column (width = 40%)
+## Column (width = 40%)
 The first visualisation is a cepstrogram for the song "Musicology" by Prince. The visualisation shows relatively stable MFCC patterns, with smooth colour transitions and few abrupt shifts. This means that there is not a lot of diversity in the timbre of the song, which matches with the audio.
 
 The second visualisation is a cepstrogram for the song "My name is Prince" by Prince. The visualisation shows more pronounced fluctuations across MFCC band, with sharper contrasts and more transitions than the previous cepstrogram. This means that it has more diverse content regarding timbre.
