@@ -1,0 +1,20 @@
+---
+title: "Portfolio Computational Musicology"
+author: "Nienke Maas"
+date: "04/03/2026"
+format: 
+  dashboard:
+    orientation: columns
+editor: visual
+---
+
+# Corpus description
+
+## Column (width=40%)
+My corpus consists of all studio albums by Prince. 
+
+### Row (height = 20%)
+
+## Column (width=60%)
+blabla
+---
