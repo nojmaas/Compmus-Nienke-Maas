@@ -25,7 +25,6 @@ My corpus consists of all studio albums by Prince.
 *Interpretation*
 
 ### Row
-# Cepstrograms
 
 # Chroma features
 
