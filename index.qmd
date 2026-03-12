@@ -195,7 +195,7 @@ Though the difference is slight, here the greater timbral similarity at the star
 
 The chordogram of "I Wanna Be Your Lover" shows that the chords B major, B7, G# minor and A&flat; fit the best. Around t = 160 until t = 250, the chord G&flat; major also has some activity. This corresponds with the findings of the chromagram, and would indicate that the key is B major, with the following chord functions. The key is tested on the page "Key estimation".
 
-B major (I) - G# minor (VI) - A&flat; (V7). G\$flat; is the dominant, so it makes sense that this chord eventually comes around in the song.
+B major (I) - G# minor (VI) - A&flat; (V7). G&flat; is the dominant, so it makes sense that this chord eventually comes around in the song.
 
 Only B7 stands out from this key. This may be a temporary dominant of E, which is the IV in B major and therefore a logical chord. However, it seems more likely that it is a misclassification, where the actual chord is the tonic B major, but due to other tones remaining or issues with classification, it gets assigned to B7.
 
@@ -269,23 +269,25 @@ This keygram does not show a clear results for which key corresponds to "Musicol
 
 **Interpretation**
 
+The segments were chosen by first mapping the entire song, and then choosing a 30 second segment that shows the greatest variety in beats. This way, I attempted to get the most representative view of the song.
+
 ### Row
 
 *I Wanna Be Your Lover*
 
-work in progress
+This sample shows a transition spot in the song, where it goes from the regular refrains to the instrumental break. It shows that the beats in the vocal section are slightly less pronounced than in the instrumental part. This makes sense, as overpowering the vocals by percussion is generally undesirable. The drum pattern stays more or less the same, apart from the transition part.
 
 ### Row
 
 *Purple Rain*
 
-work in progress
+This novelty analysis shows that the song is calm and rather mellow: the beats are not very extreme. This is audible in the song by the high-hats and the very subtle bass- and snare drum. These beats are not very pronounced and are not the main attraction of the song, so it makes sense that they are less pronounced that the other songs. The drum pattern is pretty much the same all along.
 
 ### Row
 
 *Musicology*
 
-work in progress
+"Musicology" shows quite a few high spikes, which indicated that there is a clear beat indication in the song. This is audible in the song through the clear percussion, compared to "Purple Rain" which only has high-hats and a very subtle bass- and snaredrum. In "musicology", the drums are much more pronounced, which shows in the height of the beats. Apart from the spikes, the drum patterns seems pretty regular.
 
 # Tempo analysis
 
