@@ -348,13 +348,15 @@ There is a very slight acceleration around the middle of the song, but this acce
 
 **Interpretation**
 
+To keep the visualisation clean, a random subset of 4 songs per album were chosen to use in the clustering.
+
 ### Row
 
-The dendrogram visualizes the hierarchical clustering of a sample of songs from Prince’s discography, with four random songs selected from each album and grouped using complete linkage and Euclidean distance. The structure of the tree reflects the relative similarity between songs based on the musical features captured in the distance matrix: songs that merge at lower heights are more similar, while those that join only at higher levels are more distinct.
+The dendrogram visualizes the hierarchical clustering of a sample of songs from Prince’s discography, using complete linkage and Euclidean distance. The structure of the tree reflects the relative similarity between songs based on the musical features captured in the distance matrix: songs that merge at lower heights are more similar, while those that join only at higher levels are more distinct.
 
 The key observation is that the resulting clusters do not align strictly with album boundaries. Although the dataset was constructed to include an equal number of songs per album, tracks from different albums frequently cluster together. This indicates that musical similarity in Prince’s work often transcends individual albums, suggesting continuity in style, production, or musical characteristics across different periods of his career. Rather than forming clearly separated album-based groups, the dendrogram reveals a more interconnected structure.
 
-At lower levels of the hierarchy, several compact clusters emerge, representing groups of songs with high internal similarity. These clusters likely reflect shared musical traits such as tempo, rhythmic feel, instrumentation, or overall mood. At higher levels, broader divisions become visible, indicating larger stylistic contrasts within the dataset. These higher-order clusters may correspond to different creative phases or contrasting musical directions in Prince’s oeuvre.
+At lower levels of the hierarchy, several compact clusters emerge, representing groups of songs with high internal similarity. These clusters reflect shared musical traits. At higher levels, broader divisions become visible, indicating larger stylistic contrasts within the dataset. These higher-order clusters may correspond to different creative phases or contrasting musical directions in Prince’s oeuvre.
 
 Additionally, a small number of songs appear to join the tree only at relatively high distances, suggesting that they function as outliers within the sample. These tracks can be interpreted as stylistically distinctive, highlighting Prince’s well-known tendency toward experimentation and genre hybridity.
 
