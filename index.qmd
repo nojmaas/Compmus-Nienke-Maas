@@ -14,7 +14,7 @@ theme: journal
 
 For my corpus, I use the complete discography of Prince. Prince's body of work spans more than four decades, from the late 1970's to the 2010's, and includes 39 studio albums and hundreds of tracks. His music is known for his stylistic diversity, blending funk, pop, rock, R&B and electronic influences. This makes his discography especially interesting for analysis: how do his musical characteristics evolve over time?
 
-To test this, first an analysis of general patterns regarding energy, valence and mode was done to get an overall view of the corpus. Next, some songs were selected for more complex analyses regarding chroma features, timbre features, structure, tempo and beats. These songs were selected based on personal preference and representation of different times in Prince's musical career.
+To test this, first an analysis of general patterns regarding energy, danceability and "era" was done to get an overall view of the corpus. Next, some songs were selected for more complex analyses regarding chroma features, timbre features, structure, tempo and clustering. These songs were selected based on personal preference and representation of different times in Prince's musical career.
 
 “I Wanna Be Your Lover,” from the album "Prince" (1979), represents the early phase of Prince’s career. The track combines disco-influenced rhythms, prominent bass lines and bright synthesizer textures, characteristic of late-1970s funk-pop production.
 
@@ -244,51 +244,13 @@ This keygram shows what key is most likely for "I Wanna Be your Lover". B major 
 
 *Purple rain*
 
-This keygram shows what key is most likely for "Purple rain". F major and B&flat major; stand out as the most likely candidates. Overall, I think B♭ is the most likely candidate, because this seems slightly darker and also corresponds better with the previous results from the chroma- and chordogram.
+This keygram shows what key is most likely for "Purple rain". F major and B&flat; major stand out as the most likely candidates. Overall, I think B♭ is the most likely candidate, because this seems slightly darker and also corresponds better with the previous results from the chroma- and chordogram.
 
 ### Row
 
 *Musicology*
 
 This keygram does not show a clear results for which key corresponds to "Musicology". Based on the previous results from the chordogram, I think this is because of the unusual harmonies used in the song, which makes it harder to approach a tonal centre. It is an interesting development and would be interesting to research further: does tonality decrease in the later stage of Prince's career?
-
-# Beat analysis
-
-## Column (width = 60%)
-
-**Visualisations**
-
-### Row
-
-![](images/IWBYL_beat.png)
-
-![](images/PR_beat.png)
-
-![](images/MS_beat.png)
-
-## Column
-
-**Interpretation**
-
-The segments were chosen by first mapping the entire song, and then choosing a 30 second segment that shows the greatest variety in beats. This way, I attempted to get the most representative view of the song.
-
-### Row
-
-*I Wanna Be Your Lover*
-
-This sample shows a transition spot in the song, where it goes from the regular refrains to the instrumental break. It shows that the beats in the vocal section are slightly less pronounced than in the instrumental part. This makes sense, as overpowering the vocals by percussion is generally undesirable. The drum pattern stays more or less the same, apart from the transition part.
-
-### Row
-
-*Purple Rain*
-
-This novelty analysis shows that the song is calm and rather mellow: the beats are not very extreme. This is audible in the song by the high-hats and the very subtle bass- and snare drum. These beats are not very pronounced and are not the main attraction of the song, so it makes sense that they are less pronounced that the other songs. The drum pattern is pretty much the same all along.
-
-### Row
-
-*Musicology*
-
-"Musicology" shows quite a few high spikes, which indicated that there is a clear beat indication in the song. This is audible in the song through the clear percussion, compared to "Purple Rain" which only has high-hats and a very subtle bass- and snaredrum. In "musicology", the drums are much more pronounced, which shows in the height of the beats. Apart from the spikes, the drum patterns seems pretty regular.
 
 # Tempo analysis
 
@@ -358,12 +320,32 @@ The key observation is that the resulting clusters do not align strictly with al
 
 At lower levels of the hierarchy, several compact clusters emerge, representing groups of songs with high internal similarity. These clusters reflect shared musical traits. At higher levels, broader divisions become visible, indicating larger stylistic contrasts within the dataset. These higher-order clusters may correspond to different creative phases or contrasting musical directions in Prince’s oeuvre.
 
-Additionally, a small number of songs appear to join the tree only at relatively high distances, suggesting that they function as outliers within the sample. These tracks can be interpreted as stylistically distinctive, highlighting Prince’s well-known tendency toward experimentation and genre hybridity.
-
 Overall, the dendrogram demonstrates that while local similarities between songs are clearly present, the global structure of the dataset is not organized around album membership. Instead, it reveals a continuum of musical styles, in which similarities and differences cut across album boundaries, reflecting both consistency and diversity within Prince’s discography.
 
 # Conclusion
 
 ## Column
 
-work in progress
+This computational analysis of Prince’s discography shows a career shaped by a pretty unique mix of constant experimentation and a strong, recognizable core style. Throughout this portfolio, a few clear patterns emerge about how his music developed over time.
+
+**1. A Steady Rhythmic Core**
+
+Even though Prince explored tons of genres over four decades, his music almost always stays rooted in high energy and strong danceability. His “breakthrough” years leaned more into pop-rock energy, and his more experimental phase spread out stylistically, but the groove never really disappears. You can see this in the tempo and general pattern data.
+
+**2. More Complex Sounds and Structures Over Time**
+
+Where things really change is in timbre and structure. Early tracks like *“I Wanna Be Your Lover”* have a pretty clean, consistent funk sound, with similar textures across verses and choruses. But in songs like *“Purple Rain,”* there’s way more variation in sound color. The cepstrogram shows noticeable shifts (especially in lower MFCCs), which line up with how the song builds emotionally: from softer, intimate sections to a big, layered climax.
+
+There’s also a recurring structural pattern: many songs start out pretty repetitive and familiar, then gradually open up into more experimental sections. Examples are the extended guitar solo in *“Purple Rain”* or the percussive breakdown in *“Musicology.”* Prince uses structure as a way to move from order into exploration.
+
+**3. Harmonic Shifts and a Funky Comeback**
+
+The chord and chroma analysis points to an interesting change in how Prince handles harmony. Earlier hits tend to stick to clear keys (like B major or B♭ major), but later tracks get more harmonically ambiguous. For example, *“Musicology”* leans on blues-based ideas with less typical chords (like ♭VI7), making the tonal center harder to pin down.
+
+Instead of aiming for clean, traditional pop harmony, his later work seems more focused on feel and groove, using complex funk and blues elements. That also explains why modern analysis tools have a harder time identifying a clear key in these tracks.
+
+**4. One Continuous Style, Not Separate Eras**
+
+When you look at the clustering analysis, it becomes clear that Prince’s music doesn’t neatly split into eras based on albums or time periods. Songs from completely different decades often group together because they share similar sonic features. That suggests his style is more of a continuous spectrum than a set of distinct phases.
+
+In the end, even though his tools and production techniques evolved, his core idea stayed the same: a tight, engaging groove at the center of everything.
